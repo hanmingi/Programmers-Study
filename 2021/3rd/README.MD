@@ -30,4 +30,6 @@ FAT 파일 시스템 구현 과제
  마지막으로 가상 디스크 파일을 close한다.
  
  
- 차후 추가 함수 : OpenFile, ReadFile, WriteFile, CloseFile, MakeDir, RemoveDir, etc
+ 
+ 
+ - 차후 추가 함수 : OpenFile, ReadFile, WriteFile, CloseFile, MakeDir, RemoveDir, etc

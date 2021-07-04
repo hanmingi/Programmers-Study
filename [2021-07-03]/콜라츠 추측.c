@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdbool.h>
+//#include <stdbool.h> bool형 사용하지 않으므로 삭제함
 #include <stdlib.h>
 
 int solution(int n) {

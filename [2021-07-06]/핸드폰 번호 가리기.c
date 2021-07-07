@@ -10,7 +10,7 @@ char* solution(const char* phone_number) {
     char* answer = (char*)malloc(sizeof(char) * len);
     for (int i = 0; i < len; i++) {
         if (i < len - 4)
-            answer[i] = 42;
+            answer[i] = '*';
         else
             answer[i] = phone_number[i];
         answer[len] = NULL;

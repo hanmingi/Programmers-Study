@@ -14,7 +14,7 @@ int* solution(int lottos[], size_t lottos_len, int win_nums[], size_t win_nums_l
     //로또번호가 0일 경우에는 최고순위만 ++
     for (int i = 0; i < lottos_len; i++) {
         for (int j = 0; j < lottos_len; j++) {
-            if (lottos[i] == win_nums[j]) {
+            if (lottos[i] != 0 && lottos[i] == win_nums[j]) {
                 count1++;
                 count2++;
             }

@@ -13,10 +13,10 @@ char* solution(const char* s) {
     int word = 1;
     while (answer[i] != NULL) {
         if (answer[i] != 32) {
-            if (answer[i] >= 65 && answer[i] <= 90 && (word % 2) == 0) {
+            if (answer[i] >= 'A' && answer[i] <= 'Z' && (word % 2) == 0) {
                 answer[i] += 32;
             }
-            else if (answer[i] >= 97 && answer[i] <= 122 && (word % 2) == 1) {
+            else if (answer[i] >= 'a' && answer[i] <= 'z' && (word % 2) == 1) {
                 answer[i] -= 32;
             }
             word++;

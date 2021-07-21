@@ -12,35 +12,19 @@ int* solution(int n) {
     int w = 0, h = 0, num = 0;
     int max = n;
     int inner = 1;
-    for (int i = 0; i < max; i++) {
-        arr[w][h] = inner;
-        inner++;
-        w++;
-    }
-    max--;
-    while (1) {
-        if (max == 0)
-            break;
+    while (inner < (n * (n + 1) / 2) + 1) {
         for (int i = 0; i < max; i++) {
-            h++;
-            arr[w][h] = inner;
+            arr[w++][h] = inner;
+            inner++;
+        }
+        max++;
+        for (int i = 0; i < max; i++) {
+            arr[w][++h] = inner;
             inner++;
         }
         max--;
-        if (max == 0)
-            break;
         for (int i = 0; i < max; i++) {
-            w--;
-            h--;
-            arr[w][h] = inner;
-            inner++;
-        }
-        max--;
-        if (max == 0)
-            break;
-        for (int i = 0; i < max; i++) {
-            w++;
-            arr[w][h] = inner - 1;
+            arr[--w][--h] = inner;
             inner++;
         }
         max--;

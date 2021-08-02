@@ -1,3 +1,3 @@
-# Coding Test Study
+Coding Test Study
 
-### stduy
+study

@@ -41,4 +41,4 @@ print(a*int(b[1]))
 print(a*int(b[0]))
 print(a*int(b))
 ```
-위처럼 python에서는 
+위처럼 python에서는 입력받은 수를 문자열처럼 표현할 수 있고, 그것을 정수형으로 바꾸는 것 또한 자연스럽게 이루어집니다.

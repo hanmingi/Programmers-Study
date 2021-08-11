@@ -5,9 +5,9 @@ distance = 0
 for i in house:
     distance += i/N
 if house[round(N/2)]-distance < house[round(N/2)]-distance:
-    print(house[round(N/2)])
+    print(house[N//2])
 else:
-    print(house[round(N/2)-1])
+    print(house[N//2-1])
 
 """
 distance에 집 위치의 평균값을 for문으로 입력

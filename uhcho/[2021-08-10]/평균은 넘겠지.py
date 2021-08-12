@@ -4,7 +4,8 @@ for i in range(c):
     count = 0
     stu = list(map(int, input().split()))
     for j in stu[1:]:
-        sum += j/stu[0]
+        sum += j
+    sum /= stu[0]
     for k in stu[1:]:
         if k > sum:
             count += 1

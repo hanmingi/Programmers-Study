@@ -42,3 +42,53 @@ print(a*int(b[0]))
 print(a*int(b))
 ```
 위처럼 python에서는 입력받은 수를 문자열처럼 표현할 수 있고, 그것을 정수형으로 바꾸는 것 또한 자연스럽게 이루어집니다.
+
+### 반복문
+반복문에는 for문, while문이 있습니다. 한줄 for문도 존재합니다.
+```{.python}
+for _ in range(5):
+  inner code
+N = [1,2,3,4,5]
+ for _ in N:
+  inner code
+ while True:
+  innercode
+  break
+ arr = [i for i in range(1)]
+ ```
+ 와 같은 식으로 반복문을 표현할 수 있고, 배열의 값들을 바로 받아와서 for문에서 활용할 수 있다는 것이 가장 유용했다고 생각합니다.
+ 
+ ### List
+ 다른 언어의 배열과 같은 역할을 하는 List입니다.
+ ```{.python}
+ name = ["A", "B", "C", "D"]
+ name.append("E")
+ name.insert("Z",1)
+ name.pop()
+ name.index("A")
+ name.find("A")
+ name.replace("C", "F")
+ name.sort()
+ name.reverse()
+ name.count("A")
+ name.clear()
+ ```
+ 등과 같이 맨 뒤에 괄호 안의 값을 삽입하는 append, 자신이 정한 위치에 값을 삽입하는 insert, 맨 뒤의 값을 가져오고 list에서 삭제하는 pop, "A"라는 값의 위치를 반환해주는 index, find등을 학습했는데, index와 find의 차이점은 index의 경우 값을 list내에서 찾을 수 없으면 error가 발생하지만, find의 경우는 error가 발생하지 않고 다음 코드를 시행할 수 있다는 점이었습니다. replace함수는 앞의 인자를 뒤에 있는 인자로 대체해주는 함수입니다.
+sort는 안의 값들을 오름차순으로 정리해주는 함수, reverse는 값들의 순서를 뒤집어주는 함수, count는 list 내에서 대상이 몇번 존재하는지 count해주는 함수, clear는 값들을 모두 지워주는 함수입니다.
+ 
+```{.python}
+T = int(input())
+for _ in range(T):
+    k = int(input())
+    n = int(input())
+    N = [[0]*n for i in range(k+1)]
+    for i in range(1,k+1):
+        N[i][0] = 1
+    for i in range(n):
+        N[0][i] = i+1
+    for i in range(1,k+1):
+        for j in range(1,n):
+            N[i][j] = N[i-1][j] + N[i][j-1]
+    print(N[i][j])
+```
+2차원 list를 이용한 프로그래밍입니다. N=[0]*n for i in range(k+1) 로 n*(k+1)의 2차원 list를 생성하여 프로그래밍에 응용한 코드입니다.

@@ -92,3 +92,83 @@ for _ in range(T):
     print(N[i][j])
 ```
 2차원 list를 이용한 프로그래밍입니다. N=[0]*n for i in range(k+1) 로 n*(k+1)의 2차원 list를 생성하여 프로그래밍에 응용한 코드입니다.
+## 2주차(2021-08-09 ~ 2021-08-14)
+#### ord 함수
+C에서는 아스키 코드표를 참고해야 알 수 있었던 문자, 특수문자들의 아스키값을 python에서는 ord()라는 함수로 지원하고있습니다.
+### set
+```{.python}
+word = input()
+word = word.upper()
+alpa = set(word)
+alpabet = list(alpa)
+count = []
+for i in alpabet:
+    count.append(word.count(i))
+index = count.index(max(count))
+if count.count(max(count)) > 1:
+    print("?")
+else:
+    print(alpabet[index])
+```
+python에서는 중복된 값을 제거하는 집합 자료형이 존재합니다. 백준 1157번 문제에서 이것을 처음 활용하였는데, 단어를 입력받고, 최빈값이 무엇인지 출력하는 문제에서 list로만 출력함에 어려움을 느껴, word라는 단어를 set에 저장한 후, 그것을 alpabet에 다시 리스트로 저장해 프로그램을 작성하는데 사용하였습니다. list를 중복되지 않는 list로 만드는 방법은
+```{.python}
+list = []
+myset = set(list)
+mylist = list(myset)
+```
+이라는 단계를 거쳐 만들 수 있습니다.
+### 백준 프로그래밍 1011번
+![image](https://user-images.githubusercontent.com/28240029/130354396-e6e27dee-2edc-4da7-89ba-e9d95b7c7502.png)
+푸는데 실패한 문제입니다. 위 사진은 이후 참고로 사용한 자료입니다. 거리에 따른 이동내용과 최소 이동 횟수를 정리한 표인데, 비슷하게 추론했으나, 제곱수 주변의 구간을 설정하는데 어려움을 겪었습니다. 2,3,4구간을 나누는 기준이 제곱수, 제곱수 + 제곱근 이하, 제곱수 + 제곱근 이상으로 나누어 알고리즘을 구성했는데, 추후 코드를 지우고 다시 코딩해 볼 생각입니다.
+```{.python}
+from math import sqrt, floor
+T = int(input())
+for _ in range(T):
+    x, y = map(int, input().split())
+    length = y - x
+    num = floor(sqrt(length))
+    if length < 4:
+        print(length)
+    else:
+        if length == num**2:
+            print(2 * num - 1)
+        elif length <= num**2 + num:
+            print(2 * num)
+        elif length > num**2 + num:
+            print(2 * num + 1)
+```
+위는 실제 제출한 코드입니다. ifelse문에서 length를 2,3,4구간에 맞게 나누어 값을 출력하도록합니다.
+## 3주차(2021-08-16 ~ 2021-08-21)
+### 딕셔너리
+딕셔너리는 key값과 value값을 동시에 가지는 특성을 가지고 있습니다. 또한 key의 내용으로 tuple은 가질 수 있으나, list는 가질 수 없다는 특징도 있습니다. 1주차에서 풀었던 다이얼이란 문제를 다시 풀어보며 딕셔너리에 대해 학습했습니다.
+```{.python}
+dial = {("A", "B", "C") : 2, ("D", "E", "F") : 3, ("G", "H", "I") : 4, ("J", "K", "L") : 5, ("M", "N", "O") : 6, ("P", "Q", "R", "S") : 7, ("T", "U", "V") : 8, ("W", "X", "Y", "Z") : 9}
+num = input()
+time = 0
+for i in num:
+    for key in dial.keys():
+        if i in key:
+            time += dial[key] + 1
+print(time)
+```
+원래는 dial을 리스트로 만들어 "ABC", "DEF" ... 등으로 표현, for문 내에서 리스트에 값이 있는지 찾은 후 그것의 index에 3을 더해 출력했는데, 코드를 바꾸어 dial.keys() 내에서 num의 값이 있는지 확인하고 dial[key]의 value값을 출력하도록 바꾸었습니다.
+### lambda
+이름없는 함수를 간단히 표현할 수 있는 식입니다.
+```{.python}
+def plus(a, b):
+  return a + b
+lambda a, b : a + b
+```
+위 두 식은 작동하는 방식이 같습니다.
+```{.python}
+N = int(input())
+client = []
+for _ in range(N):
+    age, name = input().split()
+    age = int(age)
+    client.append([age, name])
+client.sort(key = lambda cl: cl[0])
+for i in client:
+    print(i[0], i[1])
+```
+10814번 문제에서, client.sort(key = lambda cl: cl[0]) 를 이용함으로서, cl이라는 client 내부의 리스트를 받아오면 cl[0]인 클라이언트들의 나이를 return애서 그것을 기준으로 client를 정렬하는 함수를 만들어 문제를 해결했습니다.

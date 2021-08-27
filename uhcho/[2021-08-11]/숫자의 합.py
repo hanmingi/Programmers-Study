@@ -1,7 +1,6 @@
 N = int(input())
-num = int(input())
+num = input()
 sum = 0
-while num != 0:
-    sum += num%10
-    num = num//10
+for i in range(N):
+    sum += int(num[i])
 print(sum)

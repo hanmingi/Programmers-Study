@@ -54,6 +54,17 @@
     - 파일 수정
     
         -     [UPD] 문제카테고리 / 문제번호(이름) / 이름
+</br>
+
+- 풀리퀘스트 규칙
+    - 타이틀
+        -     1주차 / 정렬 / 한민기
+    
+    - 풀리퀘스트 내용
+        - 커밋 할 때의 제목을 풀리퀘스트 내용으로 업로드
+        
+        -     [프로그래머스] 정렬/****/Hmgi
+        -     [백준] 정렬/****/Hmgi
 ***
 ### 일정표
 | 주차 | 날짜 | 주제 | 백준 | 프로그래머스 | <img src="https://avatars.githubusercontent.com/u/22022390?v=4" width="50" height="50"> </br> HanMinGi | <img src="https://avatars.githubusercontent.com/u/74807487?v=4" width="50" height="50"> </br> Arin Jang | <img src="https://avatars.githubusercontent.com/u/70892588?v=4" width="50" height="50"> </br> 석영콩  | 

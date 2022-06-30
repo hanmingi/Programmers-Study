@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Arrays;
 
-public class Main{
+public class Main_11399{
     public static void main(String[] args) {
 	Scanner sc = new Scanner(System.in);
 	int N = sc.nextInt(); // 사람수 입력받기

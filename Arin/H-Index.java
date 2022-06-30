@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-class Solution {
+class H-Index {
     public int solution(int[] citations) {
         int answer = 0;
 

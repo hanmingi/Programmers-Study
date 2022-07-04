@@ -54,15 +54,26 @@
     - 파일 수정
     
         -     [UPD] 문제카테고리 / 문제번호(이름) / 이름
+</br>
+
+- 풀리퀘스트 규칙
+    - 타이틀
+        -     1주차 / 정렬 / 한민기
+    
+    - 풀리퀘스트 내용
+        - 커밋 할 때의 제목을 풀리퀘스트 내용으로 업로드
+        
+        -     [프로그래머스] 정렬/****/Hmgi
+        -     [백준] 정렬/****/Hmgi
 ***
 ### 일정표
-| 주차 | 날짜 | 주제 | 백준 | 프로그래머스 | <img src="https://avatars.githubusercontent.com/u/22022390?v=4" width="50" height="50"> </br> HanMinGi | <img src="https://avatars.githubusercontent.com/u/74807487?v=4" width="50" height="50"> </br> Arin Jang | <img src="https://avatars.githubusercontent.com/u/70892588?v=4" width="50" height="50"> </br> 석영콩  | 
+| 주차 | 날짜 | 주제 | 문제집 | 문제집 | <img src="https://avatars.githubusercontent.com/u/22022390?v=4" width="50" height="50"> </br> HanMinGi | <img src="https://avatars.githubusercontent.com/u/108451317?v=4" width="50" height="50"> </br> Arin Jang | <img src="https://avatars.githubusercontent.com/u/70892588?v=4" width="50" height="50"> </br> 석영콩  | 
 | :--: | :--------------------------: | :--: | :--: | :--: |:-----------------: | :------:  | :---------:  |
-| 1주차 | 06.24 ~ 06.30 | 정렬 | [문제집](https://solved.ac/problems/tags/sorting) | [문제집](https://programmers.co.kr/learn/courses/30/parts/12198) |  |  |  |
-| 2주차 | 07.01 ~ 07.06 | 해시 |  |  |  |  |  |
-| 3주차 | 07.07 ~ 07.14 |  |  |  |  |  |  |
-| 4주차 | 07.15 ~ 07.21 |  |  |  |  |  |  |
-| 5주차 | 07.22 ~ 07.28 |  |  |  |  |  |  |
+| 1주차 | 06.30 | 정렬 | [백준](https://solved.ac/problems/tags/sorting) | [프로그래머스](https://programmers.co.kr/learn/courses/30/parts/12198) | ㅇ | ㅇ | ㅇ  |
+| 2주차 | 07.07 | 정렬 심화 | [올림픽](https://www.acmicpc.net/problem/8979) | [암호해독](https://www.acmicpc.net/problem/2149) |  |  |  |
+| 3주차 |  |  |  |  |  |  |  |
+| 4주차 |  |  |  |  |  |  |  |
+| 5주차 |  |  |  |  |  |  |  |
 
 
 

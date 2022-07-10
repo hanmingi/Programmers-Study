@@ -71,7 +71,7 @@
 | :--: | :--------------------------: | :--: | :--: | :--: |:-----------------: | :------:  | :---------:  |
 | 1주차 | 06.30 | 정렬 | [백준](https://solved.ac/problems/tags/sorting) | [프로그래머스](https://programmers.co.kr/learn/courses/30/parts/12198) | ㅇ | ㅇ | ㅇ  |
 | 2주차 | 07.07 | 정렬 | [올림픽](https://www.acmicpc.net/problem/8979) | [암호해독](https://www.acmicpc.net/problem/2149) | ㅇ | ㅇ | ㅇ |
-| 3주차 | 07.14 | 정렬 | [시리얼 번호](https://blue-boy.tistory.com/187) | [암호해독](https://www.acmicpc.net/problem/2149) |  |  |  |
+| 3주차 | 07.14 | 정렬 | [시리얼 번호](https://blue-boy.tistory.com/187) | X |  |  |  |
 | 4주차 |  |  |  |  |  |  |  |
 | 5주차 |  |  |  |  |  |  |  |
 

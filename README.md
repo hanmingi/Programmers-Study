@@ -73,7 +73,7 @@
 | 2주차 | 07.07 | 정렬 | [올림픽](https://www.acmicpc.net/problem/8979) | [암호해독](https://www.acmicpc.net/problem/2149) | ㅇ | ㅇ | ㅇ |
 | 3주차 | 07.14 | 정렬 | [시리얼 번호](https://www.acmicpc.net/problem/1431) | X | ㅇ | ㅇ | ㅇ |
 | 4주차 | 07.20 | 구현 | [킹](https://www.acmicpc.net/problem/1063) | [단어 공부](https://www.acmicpc.net/problem/1157) |  |  |  |
-| 5주차 |  | 해시 |  |  |  |  |  |
+| 5주차 |  | 구현 |  |  |  |  |  |
 
 
 

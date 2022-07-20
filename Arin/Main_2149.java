@@ -1,29 +1,26 @@
 import java.util.*;
 
 public class Main_2149{ //암호해독
-    static char[] key;
-    static char[] code;
-
-    static char[][] arr;
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         //키와 암호 문구 입력받음
         String keystring = sc.next();
         String codestring = sc.next();
+        // String keystring = "HUMDING";
+        // String codestring = "EIAAHEBXOIFWEHRXONNAALRSUMNREDEXCTLFTVEXPEDARTAXNAARYIEX";
 
         //키와 암호 문구를 char 배열로 바꿈
-        key = keystring.toCharArray();
-        code = codestring.toCharArray();
+        char[] key = keystring.toCharArray();
+        char[] code = codestring.toCharArray();
 
-        arr = new char[code.length/key.length][key.length];
+        char[][] arr = new char[code.length/key.length][key.length];
 
         int code_content_no = 0;
 
         //배열 세팅
-        for (int i = 0; i < code.length/key.length; i++) {
-            for (int j = 0; j < key.length; j++) {
+        for (int i = 0; i < key.length; i++) {
+            for (int j = 0; j < code.length/key.length; j++) {
                 arr[j][i] = code[code_content_no];
                 code_content_no++;
             }            

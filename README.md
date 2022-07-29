@@ -73,9 +73,17 @@
 | 2주차 | 07.07 | 정렬 | [올림픽](https://www.acmicpc.net/problem/8979) | [암호해독](https://www.acmicpc.net/problem/2149) | ㅇ | ㅇ | ㅇ |
 | 3주차 | 07.14 | 정렬 | [시리얼 번호](https://www.acmicpc.net/problem/1431) | X | ㅇ | ㅇ | ㅇ |
 | 4주차 | 07.20 | 구현 | [킹](https://www.acmicpc.net/problem/1063) | [단어 공부](https://www.acmicpc.net/problem/1157) | ㅇ | ㅇ | ㅇ |
-| 5주차 | 07.29 | 구현 | [1차 다트](https://school.programmers.co.kr/learn/courses/30/lessons/17682) | [단어 공부](https://www.acmicpc.net/problem/1157) |  |  |  |
-| 6주차 | 08.04 | 구현 |  |  |  |  |  |
+| 5주차 | 07.29 | 구현 | [1차 다트](https://school.programmers.co.kr/learn/courses/30/lessons/17682) | [단어 공부](https://www.acmicpc.net/problem/1157) | ㅇ | ㅇ | ㅇ |
+| 6주차 | 08.03 | 구현 |  |  |  |  |  |
 
+| 주차 | 날짜 | 주제 | 문제집 | 문제집 | <img src="https://avatars.githubusercontent.com/u/22022390?v=4" width="50" height="50"> </br> HanMinGi | <img src="https://avatars.githubusercontent.com/u/108451317?v=4" width="50" height="50"> </br> Arin Jang | <img src="https://avatars.githubusercontent.com/u/70892588?v=4" width="50" height="50"> </br> 석영콩  | 
+| :--: | :--------------------------: | :--: | :--: | :--: |:-----------------: | :------:  | :---------:  |
+| 7주차 |  |  | |  |  |  |   |
+| 8주차 |  |  | |  |  |  |   |
+| 9주차 |  |  | |  |  |  |   |
+| 10주차 |  |  | |  |  |  |   |
+| 11주차 |  |  | |  |  |  |   |
+| 12주차 |  |  | |  |  |  |   |
 
 
 

@@ -74,7 +74,7 @@
 | 3주차 | 07.14 | 정렬 | [시리얼 번호](https://www.acmicpc.net/problem/1431) | X | ㅇ | ㅇ | ㅇ |
 | 4주차 | 07.20 | 구현 | [킹](https://www.acmicpc.net/problem/1063) | [단어 공부](https://www.acmicpc.net/problem/1157) | ㅇ | ㅇ | ㅇ |
 | 5주차 | 07.29 | 구현 | [1차 다트](https://school.programmers.co.kr/learn/courses/30/lessons/17682) | [단어 공부](https://www.acmicpc.net/problem/1157) | ㅇ | ㅇ | ㅇ |
-| 6주차 | 08.03 | 구현 |  |  |  |  |  |
+| 6주차 | 08.03 | 구현 | [비밀지도](https://school.programmers.co.kr/learn/courses/30/lessons/17681) | [1차 다트](https://school.programmers.co.kr/learn/courses/30/lessons/17682) |  |  |  |
 
 | 주차 | 날짜 | 주제 | 문제집 | 문제집 | <img src="https://avatars.githubusercontent.com/u/22022390?v=4" width="50" height="50"> </br> HanMinGi | <img src="https://avatars.githubusercontent.com/u/108451317?v=4" width="50" height="50"> </br> Arin Jang | <img src="https://avatars.githubusercontent.com/u/70892588?v=4" width="50" height="50"> </br> 석영콩  | 
 | :--: | :--------------------------: | :--: | :--: | :--: |:-----------------: | :------:  | :---------:  |

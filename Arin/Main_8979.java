@@ -9,7 +9,7 @@ import java.util.StringTokenizer;
 public class Main_8979 {
 	public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.in));
+        //BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.in));
 
         StringTokenizer st = new StringTokenizer(br.readLine());
         int num = Integer.parseInt(st.nextToken());

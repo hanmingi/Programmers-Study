@@ -1,4 +1,4 @@
-class Solution_secretMap { //비밀 지도
+class Solution_secretMap { //비밀지도
     public String[] solution(int n, int[] arr1, int[] arr2) {
 
         String[] answer = new String[n];

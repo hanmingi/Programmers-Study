@@ -78,7 +78,7 @@
 
 | 주차 | 날짜 | 주제 | 문제집 | 문제집 | <img src="https://avatars.githubusercontent.com/u/22022390?v=4" width="50" height="50"> </br> HanMinGi | <img src="https://avatars.githubusercontent.com/u/108451317?v=4" width="50" height="50"> </br> Arin Jang | <img src="https://avatars.githubusercontent.com/u/70892588?v=4" width="50" height="50"> </br> 석영콩  | 
 | :--: | :--------------------------: | :--: | :--: | :--: |:-----------------: | :------:  | :---------:  |
-| 7주차 |  |  | |  |  |  |   |
+| 7주차 | 08.11 | 탐욕볍 | |  |  |  |   |
 | 8주차 |  |  | |  |  |  |   |
 | 9주차 |  |  | |  |  |  |   |
 | 10주차 |  |  | |  |  |  |   |

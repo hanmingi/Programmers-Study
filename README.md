@@ -2,7 +2,7 @@
 > 프로그래밍 실력 향상을 위한 스터디
 
 - 기간 : 2022년 06월 30일(목) 부터
-- 정기 리뷰 : 목요일 오후 6시 30분
+- 정기 리뷰 : 목요일 오후 8시 30분
 - 문제 참고 사이트 : 백준, 프로그래머스
 - 언어 : JAVA
 ***
@@ -76,14 +76,14 @@
 | 5주차 | 07.29 | 구현 | [1차 다트](https://school.programmers.co.kr/learn/courses/30/lessons/17682) | [단어 공부](https://www.acmicpc.net/problem/1157) | ㅇ | ㅇ | ㅇ |
 | 6주차 | 08.03 | 구현 | [비밀지도](https://school.programmers.co.kr/learn/courses/30/lessons/17681) | [1차 다트](https://school.programmers.co.kr/learn/courses/30/lessons/17682) |  |  |  |
 
-| 주차 | 날짜 | 주제 | 문제집 | 문제집 | <img src="https://avatars.githubusercontent.com/u/22022390?v=4" width="50" height="50"> </br> HanMinGi | <img src="https://avatars.githubusercontent.com/u/108451317?v=4" width="50" height="50"> </br> Arin Jang | <img src="https://avatars.githubusercontent.com/u/70892588?v=4" width="50" height="50"> </br> 석영콩  | 
-| :--: | :--------------------------: | :--: | :--: | :--: |:-----------------: | :------:  | :---------:  |
-| 7주차 |  |  | |  |  |  |   |
-| 8주차 |  |  | |  |  |  |   |
-| 9주차 |  |  | |  |  |  |   |
-| 10주차 |  |  | |  |  |  |   |
-| 11주차 |  |  | |  |  |  |   |
-| 12주차 |  |  | |  |  |  |   |
+| 주차 | 날짜 | 주제 |  <img src="https://avatars.githubusercontent.com/u/22022390?v=4" width="50" height="50"> </br> HanMinGi | <img src="https://avatars.githubusercontent.com/u/108451317?v=4" width="50" height="50"> </br> Arin Jang | <img src="https://avatars.githubusercontent.com/u/70892588?v=4" width="50" height="50"> </br> 석영콩  | 
+| :--: | :--------------------------: | :--: |:-----------------: | :------:  | :---------:  |
+| 7주차 | 08.11 | 탐욕볍 | 발표자  |  | [사과담기게임], [큰수 만들기]  |
+| 8주차 |  |  | |   |   |
+| 9주차 |  |  | |   |   |
+| 10주차 |  |  | |    |   |
+| 11주차 |  |  | |    |   |
+| 12주차 |  |  | |    |   |
 
 
 

@@ -79,7 +79,7 @@
 | 주차 | 날짜 | 주제 |  <img src="https://avatars.githubusercontent.com/u/22022390?v=4" width="50" height="50"> </br> HanMinGi | <img src="https://avatars.githubusercontent.com/u/108451317?v=4" width="50" height="50"> </br> Arin Jang | <img src="https://avatars.githubusercontent.com/u/70892588?v=4" width="50" height="50"> </br> 석영콩  | 
 | :--: | :--------------------------: | :--: |:-----------------: | :------:  | :---------:  |
 | 7주차 | 08.11 | 탐욕법 | 발표자  | ㅇ | ㅇ  |
-| 8주차 |  |  | |   |   |
+| 8주차 | 08.18 | 탐욕법 | |   |   |
 | 9주차 |  |  | |   |   |
 | 10주차 |  |  | |    |   |
 | 11주차 |  |  | |    |   |

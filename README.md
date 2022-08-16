@@ -78,8 +78,8 @@
 
 | 주차 | 날짜 | 주제 |  <img src="https://avatars.githubusercontent.com/u/22022390?v=4" width="50" height="50"> </br> HanMinGi | <img src="https://avatars.githubusercontent.com/u/108451317?v=4" width="50" height="50"> </br> Arin Jang | <img src="https://avatars.githubusercontent.com/u/70892588?v=4" width="50" height="50"> </br> 석영콩  | 
 | :--: | :--------------------------: | :--: |:-----------------: | :------:  | :---------:  |
-| 7주차 | 08.11 | 탐욕볍 | 발표자  |  | [사과담기게임], [큰수 만들기]  |
-| 8주차 |  |  | |   |   |
+| 7주차 | 08.11 | 탐욕법 | 발표  | 문제풀이 | 문제풀이  |
+| 8주차 | 08.18 | 탐욕법 | 문제풀이 | 문제풀이  | 문제풀이  |
 | 9주차 |  |  | |   |   |
 | 10주차 |  |  | |    |   |
 | 11주차 |  |  | |    |   |

@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-class Solution {
+class Solution_NoK { // K번째수
     public int[] solution(int[] array, int[][] commands) {
         int[] answer = new int[commands.length]; //commands 개수만큼 배열 크기 설정
         int n = 0;

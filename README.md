@@ -75,9 +75,7 @@
 | 4주차 | 07.20 | 구현 | ㅇ | ㅇ | ㅇ |
 | 5주차 | 07.29 | 구현 | ㅇ | ㅇ | ㅇ |
 | 6주차 | 08.03 | 구현 | ㅇ | ㅇ | ㅇ |
-
-| 주차 | 날짜 | 주제 |  <img src="https://avatars.githubusercontent.com/u/22022390?v=4" width="50" height="50"> </br> HanMinGi | <img src="https://avatars.githubusercontent.com/u/108451317?v=4" width="50" height="50"> </br> Arin Jang | <img src="https://avatars.githubusercontent.com/u/70892588?v=4" width="50" height="50"> </br> 석영콩  | 
-| :--: | :--------------------------: | :--: |:-----------------: | :------:  | :---------:  |
+|-----|-----|-----|-----|-----|-----|
 | 7주차 | 08.11 | 탐욕법 | 발표  | 풀이 | 풀이 |
 | 8주차 | 08.18 | 탐욕법 | 풀이 | 풀이 | 풀이 |
 | 9주차 | 08.25 | 해시 | 풀이 | 발표 | 풀이 |

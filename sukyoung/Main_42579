@@ -1,0 +1,46 @@
+import java.util.*;
+
+class Solution {
+    public int[] solution(String[] genres, int[] plays) {
+        Map<String, Integer> map = new HashMap<>();
+        for(int i = 0; i < genres.length; i++) {
+            map.put(genres[i], map.getOrDefault(genres[i], 0) + plays[i]);
+        }
+        ArrayList<String> genre = new ArrayList<>();
+        for(String key : map.keySet()) {
+            genre.add(key);
+        }
+        Collections.sort(genre, (o1, o2) -> map.get(o2) - map.get(o1)); //이러면 key값에대한 value들에 내림차순으로 만들어줌
+        ArrayList<Integer> list = new ArrayList<>();
+        for(int i = 0; i < genre.size(); i++) {
+            String g = genre.get(i);
+            
+            int max = 0;
+            int firstIdx = -1;
+            for(int j = 0; j < genres.length; j++) {
+                if(g.equals(genres[j]) && max < plays[j]) {
+                    max = plays[j];
+                    firstIdx = j;
+                }
+            }
+            
+            max = 0;        //두번째 맥스값 찾아야하니까 다시 리셋한번
+            int secondIdx = -1;
+            for(int j = 0; j < genres.length; j++) {
+                if(g.equals(genres[j]) && max < plays[j] && j != firstIdx) { 
+                    max = plays[j];
+                    secondIdx = j;
+                }
+            }
+            
+            list.add(firstIdx);
+            if(secondIdx >= 0) list.add(secondIdx); //secondIdx가 -1로 잡았었는데 인덱스가 ㅎ ㅏ나일수도 있으니까 그값보다 크게 만들어주면 안돔
+        }
+        
+        int[] result = new int[list.size()];
+        for(int i = 0; i < list.size(); i++) {
+            result[i] = list.get(i);
+        }
+        return result;
+    }
+}

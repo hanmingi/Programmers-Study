@@ -12,7 +12,7 @@ public class Main_2805 { // 나무 자르기
 
         for (int i = 0; i < trees; i++) {
             treeTall[i] = sc.nextInt();
-            if (max < treeTall[i]) { // 나무들 중 가장 높은 높이를 max에 담기
+            if (max < treeTall[i]) { // 나무들 중 가장 높은 높이를 max(절단기 최대값)에 담기
                 max = treeTall[i];
             }
         }

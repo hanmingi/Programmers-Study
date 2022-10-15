@@ -5,8 +5,8 @@ public class Main_17245 { // 서버실
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         long sum = 0;
-        int n = 2;
-        int[] computers = { 0, 0 , 1 , 10 };
+        int n = 5;
+        int[] computers = { 1,4,0,2,1, 0,0,5,6,3, 8,4,7,2,0, 7,1,0,5,3, 4,5,7,9,1 };
         // int n = sc.nextInt();
         // int[] computers = new int[n * n];
         for (int i = 0; i < n * n; i++) {
@@ -44,7 +44,7 @@ public class Main_17245 { // 서버실
         int high = floor.length - 1;
         int mid;
         int answer = -1;
-        while (low <= high) {
+        while (low < high) {
             mid = (low + high) / 2;
             System.out.println("low: "+low+" / high : " + high + " / mid : " +mid);
             if (target < floor[mid]) {
@@ -52,7 +52,7 @@ public class Main_17245 { // 서버실
                     answer = mid + 1;
                     break;
                 }
-                high = mid - 1;
+                high = mid;
             } else if (target == floor[mid]) {
                 answer = mid + 1;
                 break;

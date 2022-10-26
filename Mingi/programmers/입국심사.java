@@ -47,7 +47,7 @@ class Solution_3 {
                 max = mid - 1;
                 answer = mid;
             }
-            else if(cnt == n) answer = mid;
+            //else if(cnt == n) answer = mid;
             else {
                 min = mid + 1;
             }

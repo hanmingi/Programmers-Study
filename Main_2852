@@ -1,0 +1,49 @@
+import java.io.*;
+import java.util.*;
+
+public class Main {
+	
+	public static void main(String args[]) throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+		boolean chk;
+        int s=0;
+        int time=0;
+        int a=0;
+        int b=0;
+        int t;
+        int ntime;
+		t = Integer.parseInt(br.readLine());
+		while(t>0) {
+			StringTokenizer st = new StringTokenizer(br.readLine());
+			t--;
+            
+            if(st.nextToken().equals("1")){
+                chk=true;
+            }
+            else{
+                chk=false;
+            }
+			String str = st.nextToken();
+			ntime = (str.charAt(0)-'0')*600;
+			ntime += (str.charAt(1)-'0')*60;
+			ntime += (str.charAt(3)-'0')*10;
+			ntime += str.charAt(4)-'0';
+			if(s>0) a += ntime - time;
+			if(s<0) b += ntime - time;
+			
+            if(chk==true){
+                s=s+1;
+            }
+            else{
+                s=s-1;
+            }
+			time = ntime;
+            
+		}
+		if(s>0) a += 2880 - time;
+		if(s<0) b += 2880 - time;
+        System.out.printf("%02d:%02d\n%02d:%02d\n",a/60,a%60,b/60,b%60);
+		
+	}
+}

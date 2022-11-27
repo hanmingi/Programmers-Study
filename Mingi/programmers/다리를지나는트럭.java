@@ -5,7 +5,7 @@ import java.util.Queue;
 
 public class 다리를지나는트럭 {
     public static void main(String[] args) {
-        Solution s = new Solution();
+        Solution_트럭 s = new Solution_트럭();
 
         int b1 = 2;
         int w1 = 10;
@@ -15,7 +15,7 @@ public class 다리를지나는트럭 {
     }
 }
 
-class Solution {
+class Solution_트럭 {
     public int solution(int bridge_length, int weight, int[] truck_weights) {
         int answer = 0;
         int sum = 0;

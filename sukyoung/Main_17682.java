@@ -1,23 +1,18 @@
-//S : 1
-//D : 2
-//T : 3
-
-// * : 이전 점수, 현재 점수 * 2
-// # : 획득 점수 * -1
+import java.util.*;
 
 
-class Solution_다트게임{
+public class Main_17682  {
     public int solution(String dartResult) {
         int answer = 0;
         int index = 0;
         String temp = "";
-        int[] arr = new int[3];
+        int[] arr = new int[3];                 //계산해서 더해줄수 있는 배열 3개 만들기
 
         for(int i = 0; i < dartResult.length(); i++){
             switch(dartResult.charAt(i)){
                 case '*':
                     arr[index - 1] *= 2;
-                    if(index > 1) arr[index - 2] *= 2;
+                    if(index > 1) arr[index - 2] *= 2;              //이부분은 index가 첫번째가 아닌 두번째 세번째이면 그전에것도 2배 해줄수 있기 때문에 
                     break;
 
                 case '#':
@@ -25,8 +20,8 @@ class Solution_다트게임{
                     break;
 
                 case 'S':
-                    arr[index] = (int)Math.pow(Integer.parseInt(temp), 1);
-                    index++;
+                    arr[index] = (int)Math.pow(Integer.parseInt(temp), 1);      //(int) 이부분은 math.pow는 double형이기 때문에 arr[] int형으로 되어있어서 변환 해주어야함
+                    index++;                                                    
                     temp = "";
                     break;
 
@@ -38,13 +33,13 @@ class Solution_다트게임{
 
                 case 'T':
                     arr[index] = (int)Math.pow(Integer.parseInt(temp), 3);
-                    index++;
+                    index++;                                                        
                     temp = "";
                     break;
 
                 default:
                     temp += String.valueOf(dartResult.charAt(i));
-                    break;
+                    break;                                              //항상 이부분이 먼저 숫자이므로 실행이 됨
             }
         }
 
@@ -54,25 +49,5 @@ class Solution_다트게임{
 
         return answer;
     }
-}
 
-public class 다트게임 {
-    public static void main(String[] args){
-
-        Solution_다트게임 s = new Solution_다트게임();
-
-        System.out.println(s.solution("1S2D*3T")); //37
-
-        System.out.println(s.solution("1D2S#10S")); //9
-
-        System.out.println(s.solution("1D2S0T")); //3
-
-        System.out.println(s.solution("1S*2T*3S")); //23
-
-        System.out.println(s.solution("1D#2S*3S")); //5
-
-        System.out.println(s.solution("1T2D3D#")); //-4
-
-        System.out.println(s.solution("1D2S3T*")); //59
-    }
 }

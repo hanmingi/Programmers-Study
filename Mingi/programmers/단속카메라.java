@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class Solution_단속카메라 {
     public int solution(int[][] routes) {
         int answer = 0;
 
@@ -24,7 +24,7 @@ class Solution {
 
 public class 단속카메라 {
     public static void main(String[] args){
-        Solution s = new Solution();
+        Solution_단속카메라 s = new Solution_단속카메라();
 
         int[][] t1 = {{-20, -15}, {-14, -5}, {-18, -13}, {-5, -3}};
 

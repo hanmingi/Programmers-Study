@@ -1,5 +1,5 @@
 import java.util.*;
-class Solution {
+class Java.Java.Solution {
     public int solution(int distance, int[] rocks, int n) {
         int answer= 0;
         int start= 0;

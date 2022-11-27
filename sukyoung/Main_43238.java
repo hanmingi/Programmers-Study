@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-class Java.Java.Solution {
+class Solution {
     public long solution(int n, int[] times) {
         long answer = 0;
         Arrays.sort(times);

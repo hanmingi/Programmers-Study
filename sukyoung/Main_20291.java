@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class java.Main_20291 {
+public class Main_20291 {
 	
 	static int n;
 	static TreeMap<String, Integer> map = new TreeMap<>();

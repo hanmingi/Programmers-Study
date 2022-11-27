@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Java.Java.Solution {
+class Solution {
     public int[] solution(String[] genres, int[] plays) {
         Map<String, Integer> map = new HashMap<>();
         for(int i = 0; i < genres.length; i++) {

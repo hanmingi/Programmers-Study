@@ -6,7 +6,7 @@
 // # : 획득 점수 * -1
 
 
-class Solution {
+class Solution_다트게임{
     public int solution(String dartResult) {
         int answer = 0;
         int index = 0;
@@ -59,7 +59,7 @@ class Solution {
 public class 다트게임 {
     public static void main(String[] args){
 
-        Solution s = new Solution();
+        Solution_다트게임 s = new Solution_다트게임();
 
         System.out.println(s.solution("1S2D*3T")); //37
 

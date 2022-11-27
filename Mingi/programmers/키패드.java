@@ -1,4 +1,4 @@
-class Solution {
+class Solution_키패드 {
 
     static int left_before = -1;
     static int right_before = -2;
@@ -90,7 +90,7 @@ class Solution {
 public class 키패드 {
     public static void main(String[] args){
 
-        Solution s = new Solution();
+        Solution_키패드 s = new Solution_키패드();
 
         int[] t1 = {1, 3, 4, 5, 8, 2, 1, 4, 5, 9, 5};
         //int[] t1 = {1, 3, 4, 5};

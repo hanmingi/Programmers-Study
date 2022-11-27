@@ -1,4 +1,4 @@
-class Solution {
+class Solution_비밀지도 {
     public String[] solution(int n, int[] arr1, int[] arr2) {
         String[] answer = new String[n];
 
@@ -39,7 +39,7 @@ class Solution {
 
 public class 비밀지도 {
     public static void main(String[] args){
-        Solution s = new Solution();
+        Solution_비밀지도 s = new Solution_비밀지도();
 
         int[] t1 = {9, 20, 28, 18, 11};
         int[] t2 = {30, 1, 21, 17, 28};

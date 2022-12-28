@@ -1,0 +1,26 @@
+class Solution {
+    public String solution(int n, int t, int m, int p) {
+		String str = "0";
+		int count = 0;
+        p=p-1;
+		while (str.length() < t * m) {
+			String q = "";
+			int num = count++;
+
+			while (num != 0) {
+				if (num % n >= 10){
+					q += String.valueOf((char) (num % n + 55));
+                }else{
+					q += String.valueOf(num % n);
+                }
+				num /= n;
+                
+			}
+			str += new StringBuffer(q).reverse().toString();
+		}
+		String answer = "";
+		for (int i = 0; i < t; i++)
+			answer += String.valueOf(str.charAt(m * i + p ));
+		return answer;
+	}
+}

@@ -1,4 +1,4 @@
-class Solution {
+class Solution_체육복 {
 
     static int[] student;
 
@@ -59,7 +59,7 @@ class Solution {
 
 public class 체육복 {
     public static void main(String[] args){
-        Solution s = new Solution();
+        Solution_체육복 s = new Solution_체육복();
 
         // int [] l1 = {2, 4};
         // int [] r1 = {1, 3, 5};

@@ -11,6 +11,7 @@
 - 오프라인(or 온라인) 코드 리뷰 주 1회
 - 프로그래머스 코딩테스트 연습 탭에서 문제선택한다.
     - 링크 : https://school.programmers.co.kr/learn/challenges?order=recent&page=1
+
 - 코드 설명은 개념 + 알고리즘 + 풀이 방식까지 자세하게 설명한다.
 </br>
 

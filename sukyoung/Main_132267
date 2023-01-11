@@ -1,0 +1,15 @@
+class Solution {
+    public int solution(int a, int b, int n) {
+        int answer = 0;
+        int full=0;
+        int nam=0;
+        while(n>=a){
+            full=n/a*b;
+            nam=n%a;
+            
+            answer=answer+full;
+            n=full+nam;
+        }
+        return answer;
+    }
+}

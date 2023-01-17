@@ -7,7 +7,7 @@ class Solution_notDestructedBuilding {
         // 주어진 (x1, y1), (x2+1, y2+1)를 바탕으로 두 점을 대각선으로 한 사각형의 
         // 각 점에 누적합을 할 숫자를 넣어준다.
         for (int i = 0; i < skill.length; i++) {
-            int minusOrPlus = skill[i][0] == 1 ? -skill[i][5] : skill[i][5];
+            int minusOrPlus = skill[i][0] == 1 ? -skill[i][5] : skill[i][5]; // 공격이면 -, 회복이면 +
             int x1 = skill[i][1];
             int y1 = skill[i][2];
             int x2 = skill[i][3];
@@ -32,6 +32,7 @@ class Solution_notDestructedBuilding {
             }
         }
 
+        // 주어진 빌딩의 내구도에 누적합(공격과 회복 합친 결과)을 더해 0 초과인 건물 수 센다.
         for (int i = 0; i < board.length; i++) {
             for (int j = 0; j < board[0].length; j++) {
                 if (board[i][j] + count[i][j] > 0)

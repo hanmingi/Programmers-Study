@@ -60,12 +60,3 @@
         
         -     본인이 푼 문제 레벨 : 문제 링크 
 ***
-
-### 23년 일정표
-| 주차 | 날짜 | 주제 |  <img src="https://avatars.githubusercontent.com/u/22022390?v=4" width="50" height="50"> </br> HanMinGi | <img src="https://avatars.githubusercontent.com/u/108451317?v=4" width="50" height="50"> </br> Arin Jang | <img src="https://avatars.githubusercontent.com/u/70892588?v=4" width="50" height="50"> </br> 석영콩  | 
-<img src="https://avatars.githubusercontent.com/u/56360477?v=4" width="50" height="50"> </br> Jinsu Park |
-| :--: | :--------------------------: | :--: | :-----------------: | :------:  | :---------:  | :---------:  |
-| 24주차 | 01.05 | 자바 문제풀이 | ㅇ | ㅇ | ㅇ | ㅇ | 
-| 25주차 | 01.12 | 자바 문제풀이 | ㅇ | ㅇ | ㅇ | ㅇ | 
-| 26주차 | 01.18 | 자바 문제풀이 |  |  |  |  | 
-| 27주차 | 01.25 | 자바 문제풀이 |  |  |  |  | 

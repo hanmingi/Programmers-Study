@@ -1,4 +1,4 @@
-class Solution {
+class sukyoung.Solution {
     public int solution(int a, int b, int n) {
         int answer = 0;
         int full=0;

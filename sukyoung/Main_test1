@@ -1,5 +1,5 @@
 import java.util.*;
-class Solution {
+class sukyoung.Solution {
     boolean solution(String s) {
         boolean answer = true;
         Stack<Character>stack=new Stack<>();

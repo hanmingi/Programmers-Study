@@ -1,3 +1,5 @@
+package sukyoung;
+
 import java.util.*; //(스택에서)pop은 제거,peek젤위상단값
 class Solution {
     public String[] solution(String[][] plans) {

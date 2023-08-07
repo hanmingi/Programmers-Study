@@ -1,5 +1,5 @@
 import java.util.*;
-class Solution {
+class sukyoung.Solution {
     public int solution(int k, int[] tangerine) {
         int answer = 0;
         

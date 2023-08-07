@@ -1,3 +1,5 @@
+package sukyoung;
+
 import java.util.*;
 
 class Solution {

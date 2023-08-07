@@ -1,4 +1,4 @@
-class Solution {
+class sukyoung.Solution {
     public String solution(int n, int t, int m, int p) {
 		String str = "0";
 		int count = 0;

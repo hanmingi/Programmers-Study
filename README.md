@@ -40,16 +40,12 @@
 - 커밋 규칙
     - 파일 명
         -     프로그래머스 : 문제이름.java
-    </br>
+    <br>
         
     - 파일 추가
         -     프로그래머스 : [ADD] 문제카테고리 / 문제이름 / 이름
         -     [ADD] 정렬/********/한민기
-    </br>
-    
-    - 파일 수정
-        -     [UPD] 문제카테고리 / 문제번호(이름) / 이름
-    </br>
+    <br>
 
 - 풀리퀘스트 규칙
     - 타이틀
@@ -60,3 +56,6 @@
         
         -     본인이 푼 문제 레벨 : 문제 링크 
 ***
+### 스터디 참여 인원
+<img src="https://avatars.githubusercontent.com/u/22022390?v=4" width="50" height="50"> <br> HanMinGi | <img src="https://avatars.githubusercontent.com/u/108451317?v=4" width="50" height="50"> <br> Arin Jang | <img src="https://avatars.githubusercontent.com/u/70892588?v=4" width="50" height="50"> <br> 석영콩  | <img src="https://avatars.githubusercontent.com/u/56360477?v=4" width="50" height="50"> <br> 박진수 |
+
